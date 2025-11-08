@@ -425,6 +425,11 @@ footer li {
   }
 
   .magnifying-glass {
+    /**** Le figma indique un box-shadow sur la vue mobile, mais pas sur l'élément en lui-même
+
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    
+    ****/
     display: block;
   }
   .no-magnifying-glass {
