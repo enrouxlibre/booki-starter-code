@@ -396,6 +396,16 @@ footer li {
   .activites-cards img {
     height: 200px;
   }
+
+  .filter-btn {
+    font-size: 16px;
+  }
+  .filter-bar {
+    flex-wrap: wrap;
+  }
+  .filter-bar b {
+    flex-basis: 100%;
+  }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -481,5 +491,8 @@ footer li {
 
   .activites-cards img {
     height: 140px;
+  }
+  .filter-btn {
+    font-size: 14px;
   }
 }
