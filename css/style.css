@@ -407,7 +407,7 @@ footer li {
   .filter-bar {
     flex-wrap: wrap;
   }
-  .filter-bar b {
+  .filter-bar h2 {
     flex-basis: 100%;
   }
 }
@@ -493,7 +493,7 @@ footer li {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .filter-bar b {
+  .filter-bar h2 {
     grid-column: span 2;
   }
 
