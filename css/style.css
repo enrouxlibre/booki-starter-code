@@ -438,6 +438,10 @@ footer li {
     padding: 0 15px;
   }
 
+  .search-bar input {
+    padding-right: 10px;
+  }
+
   .magnifying-glass {
     /**** Le figma indique un box-shadow sur la vue mobile, mais pas sur l'élément en lui-même
 
@@ -445,6 +449,7 @@ footer li {
     
     ****/
     display: block;
+    margin-left: -10px;
   }
   .no-magnifying-glass {
     display: none;
