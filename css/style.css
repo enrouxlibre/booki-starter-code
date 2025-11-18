@@ -410,6 +410,10 @@ footer li {
   .filter-bar h2 {
     flex-basis: 100%;
   }
+
+  footer {
+    gap: 30px;
+  }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -441,6 +445,7 @@ footer li {
   .search-bar input {
     padding-right: 10px;
     min-width: 100px;
+    width: 100%;
   }
 
   .magnifying-glass {
@@ -508,5 +513,16 @@ footer li {
   }
   .filter-btn {
     font-size: 14px;
+  }
+
+  footer {
+    gap: 0;
+  }
+  header {
+    gap: 30px;
+    height: auto;
+  }
+  .headline h1 {
+    margin-top: 30px;
   }
 }
