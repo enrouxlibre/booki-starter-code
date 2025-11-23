@@ -511,6 +511,9 @@ footer li {
   .activites-cards img {
     height: 140px;
   }
+  .activites {
+    margin-bottom: 30px;
+  }
   .filter-btn {
     font-size: 14px;
   }
