@@ -346,14 +346,16 @@ a {
 /* Footer */
 footer {
   background-color: var(--main-bg-color);
-  padding: 15px 30px 0 30px;
+  padding: 20px 30px 0 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
 
 footer ul {
   list-style: none;
-  padding: 0;
+  padding: 0 20px 0 0;
+  margin: 0;
 }
 
 footer ul::before {
@@ -415,9 +417,8 @@ footer li {
   .filter-bar h2 {
     flex-basis: 100%;
   }
-
-  footer {
-    gap: 30px;
+  .activites {
+    margin-top: 35px;
   }
 }
 
@@ -523,9 +524,6 @@ footer li {
     font-size: 14px;
   }
 
-  footer {
-    gap: 0;
-  }
   header {
     gap: 30px;
     height: auto;
